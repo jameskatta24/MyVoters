@@ -18,11 +18,6 @@ public String geteName() {
 public void seteName(String eName) {
 	this.eName = eName;
 }
-@Override
-public String toString() {
-	return "Employee [eId=" + eId + ", eName=" + eName + "]";
-}
 
-	private int id;
-	private String name;
+	
 }
