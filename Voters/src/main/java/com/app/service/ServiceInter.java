@@ -5,7 +5,8 @@ import com.app.model.Employee;
 public class ServiceInter {
 	public void save(Employee e) {
 		Employee e1 = new Employee();
-		e1.seteId(10);
-		e1.seteName("Katta");
+		e1.seteId(20);
+		e1.seteName("gatta");
+		System.out.println(e1);
 	}
 }
